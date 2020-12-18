@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- 优先使用Chrome内核 -->
+  <meta name="renderer" content="webkit"/>
+  <meta name="force-rendering" content="webkit"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <title>简单的简繁切换方案</title>
+</head>
+
+<body>
+  <div id="app">
+    <input type="button" value="繁体" onclick="zhTran('t');"/>
+    <input type="button" value="简体" onclick="zhTran('s');"/>
+    <p>医师工作台</p>
+    <p>门诊预约</p>
+    <p>门诊回顾</p>
+    <p>患者中心</p>
+  </div>
+  <script src="./utils/translate.js"></script>
+  
+</body>
+</html>
